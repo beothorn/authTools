@@ -2,6 +2,11 @@
   "name": "AuthTools",
   "description": "Utilitiy to debug auth flows",
   "version": "0.0.1",
+  "author": "Beothorn",
+  "homepage_url": "https://github.com/beothorn/authTools",
+  "icons": {
+      "48": "icons/logo-48.png"
+  },
   "manifest_version": 3,
   "devtools_page": "devtools.html",
   "permissions": [
