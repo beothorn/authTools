@@ -1,0 +1,13 @@
+{
+  "name": "AuthTools",
+  "description": "Utilitiy to debug auth flows",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "devtools_page": "devtools.html",
+  "permissions": [
+    "webRequest"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ]
+}
