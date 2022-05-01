@@ -7,6 +7,10 @@ chrome.devtools.panels.create("AuthTools",
 );
 
 function addEntry(title, details) {
+    const welcome = document.getElementById("welcomeMsg");
+    if(welcome) {
+        welcome.parentNode.removeChild(welcome);
+    }
     const entries = document.getElementById("entries");
     const entry = document.createElement("div");
     const titleElement = document.createElement("p");
