@@ -2,7 +2,7 @@ chrome.devtools.panels.create("AuthTools",
     "icon.png",
     "devtools.html",
     function(panel) {
-        console.log("AutTools was loaded");
+        console.log("AuthTools was loaded");
     }
 );
 
@@ -19,7 +19,6 @@ function addEntry(title, details) {
     const oauthDetails = document.createElement("pre");
     oauthDetails.innerText = details;
     entry.appendChild(oauthDetails);
-    // set element class
     entry.classList.add("entry");
     entries.appendChild(entry);
 }
